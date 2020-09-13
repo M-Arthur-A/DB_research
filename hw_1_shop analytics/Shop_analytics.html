@@ -13395,7 +13395,7 @@ div#notebook {
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># задание соответствующих форматов столбцам</span>
 <span class="n">df</span><span class="p">[</span><span class="s1">&#39;year&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;o_date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">year</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;int64&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">,</span> <span class="s1">&#39;.&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;float&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13456,11 +13456,11 @@ div#notebook {
   <tbody>
     <tr>
       <th>2016</th>
-      <td>1295000</td>
+      <td>1295.00</td>
     </tr>
     <tr>
       <th>2017</th>
-      <td>1526700</td>
+      <td>1526.70</td>
     </tr>
   </tbody>
 </table>
@@ -13798,145 +13798,145 @@ div#notebook {
       <th>0</th>
       <td>2016</td>
       <td>1</td>
-      <td>112520331350</td>
+      <td>112520331.35</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2016</td>
       <td>2</td>
-      <td>100652262200</td>
+      <td>100652262.20</td>
     </tr>
     <tr>
       <th>2</th>
       <td>2016</td>
       <td>3</td>
-      <td>125415802400</td>
+      <td>125415802.40</td>
     </tr>
     <tr>
       <th>3</th>
       <td>2016</td>
       <td>4</td>
-      <td>135366050400</td>
+      <td>135366050.40</td>
     </tr>
     <tr>
       <th>4</th>
       <td>2016</td>
       <td>5</td>
-      <td>130065409600</td>
+      <td>130065409.60</td>
     </tr>
     <tr>
       <th>5</th>
       <td>2016</td>
       <td>6</td>
-      <td>122606375500</td>
+      <td>122606375.50</td>
     </tr>
     <tr>
       <th>6</th>
       <td>2016</td>
       <td>7</td>
-      <td>127451660700</td>
+      <td>127451660.70</td>
     </tr>
     <tr>
       <th>7</th>
       <td>2016</td>
       <td>8</td>
-      <td>152145473200</td>
+      <td>152145473.20</td>
     </tr>
     <tr>
       <th>8</th>
       <td>2016</td>
       <td>9</td>
-      <td>158168201100</td>
+      <td>158168201.10</td>
     </tr>
     <tr>
       <th>9</th>
       <td>2016</td>
       <td>10</td>
-      <td>195448265600</td>
+      <td>195448265.60</td>
     </tr>
     <tr>
       <th>10</th>
       <td>2016</td>
       <td>11</td>
-      <td>221892632500</td>
+      <td>221892632.50</td>
     </tr>
     <tr>
       <th>11</th>
       <td>2016</td>
       <td>12</td>
-      <td>223290188100</td>
+      <td>223290188.10</td>
     </tr>
     <tr>
       <th>12</th>
       <td>2017</td>
       <td>1</td>
-      <td>196053393200</td>
+      <td>196053393.20</td>
     </tr>
     <tr>
       <th>13</th>
       <td>2017</td>
       <td>2</td>
-      <td>171306939300</td>
+      <td>171306939.30</td>
     </tr>
     <tr>
       <th>14</th>
       <td>2017</td>
       <td>3</td>
-      <td>206985912000</td>
+      <td>206985912.00</td>
     </tr>
     <tr>
       <th>15</th>
       <td>2017</td>
       <td>4</td>
-      <td>194691926100</td>
+      <td>194691926.10</td>
     </tr>
     <tr>
       <th>16</th>
       <td>2017</td>
       <td>5</td>
-      <td>229263806800</td>
+      <td>229263806.80</td>
     </tr>
     <tr>
       <th>17</th>
       <td>2017</td>
       <td>6</td>
-      <td>206891846000</td>
+      <td>206891846.00</td>
     </tr>
     <tr>
       <th>18</th>
       <td>2017</td>
       <td>7</td>
-      <td>210803723900</td>
+      <td>210803723.90</td>
     </tr>
     <tr>
       <th>19</th>
       <td>2017</td>
       <td>8</td>
-      <td>215920308800</td>
+      <td>215920308.80</td>
     </tr>
     <tr>
       <th>20</th>
       <td>2017</td>
       <td>9</td>
-      <td>217417658500</td>
+      <td>217417658.50</td>
     </tr>
     <tr>
       <th>21</th>
       <td>2017</td>
       <td>10</td>
-      <td>260797354300</td>
+      <td>260797354.30</td>
     </tr>
     <tr>
       <th>22</th>
       <td>2017</td>
       <td>11</td>
-      <td>304583518400</td>
+      <td>304583518.40</td>
     </tr>
     <tr>
       <th>23</th>
       <td>2017</td>
       <td>12</td>
-      <td>322948401300</td>
+      <td>322948401.30</td>
     </tr>
   </tbody>
 </table>
@@ -13954,8 +13954,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># mean_year_price = </span>
-<span class="n">mean_year_price</span> <span class="o">=</span> <span class="n">season_pivot</span><span class="o">.</span><span class="n">pivot_table</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="s1">&#39;year&#39;</span><span class="p">,</span> <span class="n">values</span><span class="o">=</span><span class="s1">&#39;price&#39;</span><span class="p">,</span> <span class="n">aggfunc</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_year_price</span> <span class="o">=</span> <span class="n">season_pivot</span><span class="o">.</span><span class="n">pivot_table</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="s1">&#39;year&#39;</span><span class="p">,</span> <span class="n">values</span><span class="o">=</span><span class="s1">&#39;price&#39;</span><span class="p">,</span> <span class="n">aggfunc</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">)</span>
 <span class="n">mean_year_price</span>
 </pre></div>
 
@@ -14002,11 +14001,11 @@ div#notebook {
   <tbody>
     <tr>
       <th>2016</th>
-      <td>150418554387.50</td>
+      <td>150418554.39</td>
     </tr>
     <tr>
       <th>2017</th>
-      <td>228138732383.33</td>
+      <td>228138732.38</td>
     </tr>
   </tbody>
 </table>
@@ -14072,169 +14071,169 @@ div#notebook {
       <th>0</th>
       <td>2016</td>
       <td>1</td>
-      <td>112520331350</td>
-      <td>150418554387.50</td>
+      <td>112520331.35</td>
+      <td>150418554.39</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2016</td>
       <td>2</td>
-      <td>100652262200</td>
-      <td>150418554387.50</td>
+      <td>100652262.20</td>
+      <td>150418554.39</td>
     </tr>
     <tr>
       <th>2</th>
       <td>2016</td>
       <td>3</td>
-      <td>125415802400</td>
-      <td>150418554387.50</td>
+      <td>125415802.40</td>
+      <td>150418554.39</td>
     </tr>
     <tr>
       <th>3</th>
       <td>2016</td>
       <td>4</td>
-      <td>135366050400</td>
-      <td>150418554387.50</td>
+      <td>135366050.40</td>
+      <td>150418554.39</td>
     </tr>
     <tr>
       <th>4</th>
       <td>2016</td>
       <td>5</td>
-      <td>130065409600</td>
-      <td>150418554387.50</td>
+      <td>130065409.60</td>
+      <td>150418554.39</td>
     </tr>
     <tr>
       <th>5</th>
       <td>2016</td>
       <td>6</td>
-      <td>122606375500</td>
-      <td>150418554387.50</td>
+      <td>122606375.50</td>
+      <td>150418554.39</td>
     </tr>
     <tr>
       <th>6</th>
       <td>2016</td>
       <td>7</td>
-      <td>127451660700</td>
-      <td>150418554387.50</td>
+      <td>127451660.70</td>
+      <td>150418554.39</td>
     </tr>
     <tr>
       <th>7</th>
       <td>2016</td>
       <td>8</td>
-      <td>152145473200</td>
-      <td>150418554387.50</td>
+      <td>152145473.20</td>
+      <td>150418554.39</td>
     </tr>
     <tr>
       <th>8</th>
       <td>2016</td>
       <td>9</td>
-      <td>158168201100</td>
-      <td>150418554387.50</td>
+      <td>158168201.10</td>
+      <td>150418554.39</td>
     </tr>
     <tr>
       <th>9</th>
       <td>2016</td>
       <td>10</td>
-      <td>195448265600</td>
-      <td>150418554387.50</td>
+      <td>195448265.60</td>
+      <td>150418554.39</td>
     </tr>
     <tr>
       <th>10</th>
       <td>2016</td>
       <td>11</td>
-      <td>221892632500</td>
-      <td>150418554387.50</td>
+      <td>221892632.50</td>
+      <td>150418554.39</td>
     </tr>
     <tr>
       <th>11</th>
       <td>2016</td>
       <td>12</td>
-      <td>223290188100</td>
-      <td>150418554387.50</td>
+      <td>223290188.10</td>
+      <td>150418554.39</td>
     </tr>
     <tr>
       <th>12</th>
       <td>2017</td>
       <td>1</td>
-      <td>196053393200</td>
-      <td>228138732383.33</td>
+      <td>196053393.20</td>
+      <td>228138732.38</td>
     </tr>
     <tr>
       <th>13</th>
       <td>2017</td>
       <td>2</td>
-      <td>171306939300</td>
-      <td>228138732383.33</td>
+      <td>171306939.30</td>
+      <td>228138732.38</td>
     </tr>
     <tr>
       <th>14</th>
       <td>2017</td>
       <td>3</td>
-      <td>206985912000</td>
-      <td>228138732383.33</td>
+      <td>206985912.00</td>
+      <td>228138732.38</td>
     </tr>
     <tr>
       <th>15</th>
       <td>2017</td>
       <td>4</td>
-      <td>194691926100</td>
-      <td>228138732383.33</td>
+      <td>194691926.10</td>
+      <td>228138732.38</td>
     </tr>
     <tr>
       <th>16</th>
       <td>2017</td>
       <td>5</td>
-      <td>229263806800</td>
-      <td>228138732383.33</td>
+      <td>229263806.80</td>
+      <td>228138732.38</td>
     </tr>
     <tr>
       <th>17</th>
       <td>2017</td>
       <td>6</td>
-      <td>206891846000</td>
-      <td>228138732383.33</td>
+      <td>206891846.00</td>
+      <td>228138732.38</td>
     </tr>
     <tr>
       <th>18</th>
       <td>2017</td>
       <td>7</td>
-      <td>210803723900</td>
-      <td>228138732383.33</td>
+      <td>210803723.90</td>
+      <td>228138732.38</td>
     </tr>
     <tr>
       <th>19</th>
       <td>2017</td>
       <td>8</td>
-      <td>215920308800</td>
-      <td>228138732383.33</td>
+      <td>215920308.80</td>
+      <td>228138732.38</td>
     </tr>
     <tr>
       <th>20</th>
       <td>2017</td>
       <td>9</td>
-      <td>217417658500</td>
-      <td>228138732383.33</td>
+      <td>217417658.50</td>
+      <td>228138732.38</td>
     </tr>
     <tr>
       <th>21</th>
       <td>2017</td>
       <td>10</td>
-      <td>260797354300</td>
-      <td>228138732383.33</td>
+      <td>260797354.30</td>
+      <td>228138732.38</td>
     </tr>
     <tr>
       <th>22</th>
       <td>2017</td>
       <td>11</td>
-      <td>304583518400</td>
-      <td>228138732383.33</td>
+      <td>304583518.40</td>
+      <td>228138732.38</td>
     </tr>
     <tr>
       <th>23</th>
       <td>2017</td>
       <td>12</td>
-      <td>322948401300</td>
-      <td>228138732383.33</td>
+      <td>322948401.30</td>
+      <td>228138732.38</td>
     </tr>
   </tbody>
 </table>
@@ -14301,192 +14300,192 @@ div#notebook {
       <th>0</th>
       <td>2016</td>
       <td>1</td>
-      <td>112520331350</td>
-      <td>150418554387.50</td>
+      <td>112520331.35</td>
+      <td>150418554.39</td>
       <td>0.75</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2016</td>
       <td>2</td>
-      <td>100652262200</td>
-      <td>150418554387.50</td>
+      <td>100652262.20</td>
+      <td>150418554.39</td>
       <td>0.67</td>
     </tr>
     <tr>
       <th>2</th>
       <td>2016</td>
       <td>3</td>
-      <td>125415802400</td>
-      <td>150418554387.50</td>
+      <td>125415802.40</td>
+      <td>150418554.39</td>
       <td>0.83</td>
     </tr>
     <tr>
       <th>3</th>
       <td>2016</td>
       <td>4</td>
-      <td>135366050400</td>
-      <td>150418554387.50</td>
+      <td>135366050.40</td>
+      <td>150418554.39</td>
       <td>0.90</td>
     </tr>
     <tr>
       <th>4</th>
       <td>2016</td>
       <td>5</td>
-      <td>130065409600</td>
-      <td>150418554387.50</td>
+      <td>130065409.60</td>
+      <td>150418554.39</td>
       <td>0.86</td>
     </tr>
     <tr>
       <th>5</th>
       <td>2016</td>
       <td>6</td>
-      <td>122606375500</td>
-      <td>150418554387.50</td>
+      <td>122606375.50</td>
+      <td>150418554.39</td>
       <td>0.82</td>
     </tr>
     <tr>
       <th>6</th>
       <td>2016</td>
       <td>7</td>
-      <td>127451660700</td>
-      <td>150418554387.50</td>
+      <td>127451660.70</td>
+      <td>150418554.39</td>
       <td>0.85</td>
     </tr>
     <tr>
       <th>7</th>
       <td>2016</td>
       <td>8</td>
-      <td>152145473200</td>
-      <td>150418554387.50</td>
+      <td>152145473.20</td>
+      <td>150418554.39</td>
       <td>1.01</td>
     </tr>
     <tr>
       <th>8</th>
       <td>2016</td>
       <td>9</td>
-      <td>158168201100</td>
-      <td>150418554387.50</td>
+      <td>158168201.10</td>
+      <td>150418554.39</td>
       <td>1.05</td>
     </tr>
     <tr>
       <th>9</th>
       <td>2016</td>
       <td>10</td>
-      <td>195448265600</td>
-      <td>150418554387.50</td>
+      <td>195448265.60</td>
+      <td>150418554.39</td>
       <td>1.30</td>
     </tr>
     <tr>
       <th>10</th>
       <td>2016</td>
       <td>11</td>
-      <td>221892632500</td>
-      <td>150418554387.50</td>
+      <td>221892632.50</td>
+      <td>150418554.39</td>
       <td>1.48</td>
     </tr>
     <tr>
       <th>11</th>
       <td>2016</td>
       <td>12</td>
-      <td>223290188100</td>
-      <td>150418554387.50</td>
+      <td>223290188.10</td>
+      <td>150418554.39</td>
       <td>1.48</td>
     </tr>
     <tr>
       <th>12</th>
       <td>2017</td>
       <td>1</td>
-      <td>196053393200</td>
-      <td>228138732383.33</td>
+      <td>196053393.20</td>
+      <td>228138732.38</td>
       <td>0.86</td>
     </tr>
     <tr>
       <th>13</th>
       <td>2017</td>
       <td>2</td>
-      <td>171306939300</td>
-      <td>228138732383.33</td>
+      <td>171306939.30</td>
+      <td>228138732.38</td>
       <td>0.75</td>
     </tr>
     <tr>
       <th>14</th>
       <td>2017</td>
       <td>3</td>
-      <td>206985912000</td>
-      <td>228138732383.33</td>
+      <td>206985912.00</td>
+      <td>228138732.38</td>
       <td>0.91</td>
     </tr>
     <tr>
       <th>15</th>
       <td>2017</td>
       <td>4</td>
-      <td>194691926100</td>
-      <td>228138732383.33</td>
+      <td>194691926.10</td>
+      <td>228138732.38</td>
       <td>0.85</td>
     </tr>
     <tr>
       <th>16</th>
       <td>2017</td>
       <td>5</td>
-      <td>229263806800</td>
-      <td>228138732383.33</td>
+      <td>229263806.80</td>
+      <td>228138732.38</td>
       <td>1.00</td>
     </tr>
     <tr>
       <th>17</th>
       <td>2017</td>
       <td>6</td>
-      <td>206891846000</td>
-      <td>228138732383.33</td>
+      <td>206891846.00</td>
+      <td>228138732.38</td>
       <td>0.91</td>
     </tr>
     <tr>
       <th>18</th>
       <td>2017</td>
       <td>7</td>
-      <td>210803723900</td>
-      <td>228138732383.33</td>
+      <td>210803723.90</td>
+      <td>228138732.38</td>
       <td>0.92</td>
     </tr>
     <tr>
       <th>19</th>
       <td>2017</td>
       <td>8</td>
-      <td>215920308800</td>
-      <td>228138732383.33</td>
+      <td>215920308.80</td>
+      <td>228138732.38</td>
       <td>0.95</td>
     </tr>
     <tr>
       <th>20</th>
       <td>2017</td>
       <td>9</td>
-      <td>217417658500</td>
-      <td>228138732383.33</td>
+      <td>217417658.50</td>
+      <td>228138732.38</td>
       <td>0.95</td>
     </tr>
     <tr>
       <th>21</th>
       <td>2017</td>
       <td>10</td>
-      <td>260797354300</td>
-      <td>228138732383.33</td>
+      <td>260797354.30</td>
+      <td>228138732.38</td>
       <td>1.14</td>
     </tr>
     <tr>
       <th>22</th>
       <td>2017</td>
       <td>11</td>
-      <td>304583518400</td>
-      <td>228138732383.33</td>
+      <td>304583518.40</td>
+      <td>228138732.38</td>
       <td>1.34</td>
     </tr>
     <tr>
       <th>23</th>
       <td>2017</td>
       <td>12</td>
-      <td>322948401300</td>
-      <td>228138732383.33</td>
+      <td>322948401.30</td>
+      <td>228138732.38</td>
       <td>1.42</td>
     </tr>
   </tbody>
@@ -14548,7 +14547,7 @@ div#notebook {
   <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2020-09-10T23:11:33.755221</dc:date>
+    <dc:date>2020-09-13T22:52:55.658157</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -14582,7 +14581,7 @@ z
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <path clip-path="url(#pe480b68de7)" d="M 77.541364 442.08 
+      <path clip-path="url(#pa326578278)" d="M 77.541364 442.08 
 L 77.541364 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -14650,7 +14649,7 @@ z
     </g>
     <g id="xtick_2">
      <g id="line2d_2">
-      <path clip-path="url(#pe480b68de7)" d="M 104.007767 442.08 
+      <path clip-path="url(#pa326578278)" d="M 104.007767 442.08 
 L 104.007767 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -14692,7 +14691,7 @@ z
     </g>
     <g id="xtick_3">
      <g id="line2d_3">
-      <path clip-path="url(#pe480b68de7)" d="M 130.47417 442.08 
+      <path clip-path="url(#pa326578278)" d="M 130.47417 442.08 
 L 130.47417 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -14743,7 +14742,7 @@ z
     </g>
     <g id="xtick_4">
      <g id="line2d_4">
-      <path clip-path="url(#pe480b68de7)" d="M 156.940573 442.08 
+      <path clip-path="url(#pa326578278)" d="M 156.940573 442.08 
 L 156.940573 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -14778,7 +14777,7 @@ z
     </g>
     <g id="xtick_5">
      <g id="line2d_5">
-      <path clip-path="url(#pe480b68de7)" d="M 183.406976 442.08 
+      <path clip-path="url(#pa326578278)" d="M 183.406976 442.08 
 L 183.406976 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -14821,7 +14820,7 @@ z
     </g>
     <g id="xtick_6">
      <g id="line2d_6">
-      <path clip-path="url(#pe480b68de7)" d="M 209.873379 442.08 
+      <path clip-path="url(#pa326578278)" d="M 209.873379 442.08 
 L 209.873379 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -14837,7 +14836,7 @@ L 209.873379 7.2
     </g>
     <g id="xtick_7">
      <g id="line2d_7">
-      <path clip-path="url(#pe480b68de7)" d="M 236.339783 442.08 
+      <path clip-path="url(#pa326578278)" d="M 236.339783 442.08 
 L 236.339783 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -14868,7 +14867,7 @@ z
     </g>
     <g id="xtick_8">
      <g id="line2d_8">
-      <path clip-path="url(#pe480b68de7)" d="M 262.806186 442.08 
+      <path clip-path="url(#pa326578278)" d="M 262.806186 442.08 
 L 262.806186 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -14926,7 +14925,7 @@ z
     </g>
     <g id="xtick_9">
      <g id="line2d_9">
-      <path clip-path="url(#pe480b68de7)" d="M 289.272589 442.08 
+      <path clip-path="url(#pa326578278)" d="M 289.272589 442.08 
 L 289.272589 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -14979,7 +14978,7 @@ z
     </g>
     <g id="xtick_10">
      <g id="line2d_10">
-      <path clip-path="url(#pe480b68de7)" d="M 315.738992 442.08 
+      <path clip-path="url(#pa326578278)" d="M 315.738992 442.08 
 L 315.738992 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15023,7 +15022,7 @@ z
     </g>
     <g id="xtick_11">
      <g id="line2d_11">
-      <path clip-path="url(#pe480b68de7)" d="M 342.205395 442.08 
+      <path clip-path="url(#pa326578278)" d="M 342.205395 442.08 
 L 342.205395 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15040,7 +15039,7 @@ L 342.205395 7.2
     </g>
     <g id="xtick_12">
      <g id="line2d_12">
-      <path clip-path="url(#pe480b68de7)" d="M 368.671798 442.08 
+      <path clip-path="url(#pa326578278)" d="M 368.671798 442.08 
 L 368.671798 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15057,7 +15056,7 @@ L 368.671798 7.2
     </g>
     <g id="xtick_13">
      <g id="line2d_13">
-      <path clip-path="url(#pe480b68de7)" d="M 395.138202 442.08 
+      <path clip-path="url(#pa326578278)" d="M 395.138202 442.08 
 L 395.138202 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15073,7 +15072,7 @@ L 395.138202 7.2
     </g>
     <g id="xtick_14">
      <g id="line2d_14">
-      <path clip-path="url(#pe480b68de7)" d="M 421.604605 442.08 
+      <path clip-path="url(#pa326578278)" d="M 421.604605 442.08 
 L 421.604605 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15089,7 +15088,7 @@ L 421.604605 7.2
     </g>
     <g id="xtick_15">
      <g id="line2d_15">
-      <path clip-path="url(#pe480b68de7)" d="M 448.071008 442.08 
+      <path clip-path="url(#pa326578278)" d="M 448.071008 442.08 
 L 448.071008 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15105,7 +15104,7 @@ L 448.071008 7.2
     </g>
     <g id="xtick_16">
      <g id="line2d_16">
-      <path clip-path="url(#pe480b68de7)" d="M 474.537411 442.08 
+      <path clip-path="url(#pa326578278)" d="M 474.537411 442.08 
 L 474.537411 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15121,7 +15120,7 @@ L 474.537411 7.2
     </g>
     <g id="xtick_17">
      <g id="line2d_17">
-      <path clip-path="url(#pe480b68de7)" d="M 501.003814 442.08 
+      <path clip-path="url(#pa326578278)" d="M 501.003814 442.08 
 L 501.003814 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15137,7 +15136,7 @@ L 501.003814 7.2
     </g>
     <g id="xtick_18">
      <g id="line2d_18">
-      <path clip-path="url(#pe480b68de7)" d="M 527.470217 442.08 
+      <path clip-path="url(#pa326578278)" d="M 527.470217 442.08 
 L 527.470217 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15153,7 +15152,7 @@ L 527.470217 7.2
     </g>
     <g id="xtick_19">
      <g id="line2d_19">
-      <path clip-path="url(#pe480b68de7)" d="M 553.936621 442.08 
+      <path clip-path="url(#pa326578278)" d="M 553.936621 442.08 
 L 553.936621 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15169,7 +15168,7 @@ L 553.936621 7.2
     </g>
     <g id="xtick_20">
      <g id="line2d_20">
-      <path clip-path="url(#pe480b68de7)" d="M 580.403024 442.08 
+      <path clip-path="url(#pa326578278)" d="M 580.403024 442.08 
 L 580.403024 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15185,7 +15184,7 @@ L 580.403024 7.2
     </g>
     <g id="xtick_21">
      <g id="line2d_21">
-      <path clip-path="url(#pe480b68de7)" d="M 606.869427 442.08 
+      <path clip-path="url(#pa326578278)" d="M 606.869427 442.08 
 L 606.869427 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15201,7 +15200,7 @@ L 606.869427 7.2
     </g>
     <g id="xtick_22">
      <g id="line2d_22">
-      <path clip-path="url(#pe480b68de7)" d="M 633.33583 442.08 
+      <path clip-path="url(#pa326578278)" d="M 633.33583 442.08 
 L 633.33583 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15218,7 +15217,7 @@ L 633.33583 7.2
     </g>
     <g id="xtick_23">
      <g id="line2d_23">
-      <path clip-path="url(#pe480b68de7)" d="M 659.802233 442.08 
+      <path clip-path="url(#pa326578278)" d="M 659.802233 442.08 
 L 659.802233 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15235,7 +15234,7 @@ L 659.802233 7.2
     </g>
     <g id="xtick_24">
      <g id="line2d_24">
-      <path clip-path="url(#pe480b68de7)" d="M 686.268636 442.08 
+      <path clip-path="url(#pa326578278)" d="M 686.268636 442.08 
 L 686.268636 7.2 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15380,7 +15379,7 @@ z
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_25">
-      <path clip-path="url(#pe480b68de7)" d="M 47.105 407.352511 
+      <path clip-path="url(#pa326578278)" d="M 47.105 407.352511 
 L 716.705 407.352511 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15403,7 +15402,7 @@ z
     </g>
     <g id="ytick_2">
      <g id="line2d_26">
-      <path clip-path="url(#pe480b68de7)" d="M 47.105 358.862379 
+      <path clip-path="url(#pa326578278)" d="M 47.105 358.862379 
 L 716.705 358.862379 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15418,7 +15417,7 @@ L 716.705 358.862379
     </g>
     <g id="ytick_3">
      <g id="line2d_27">
-      <path clip-path="url(#pe480b68de7)" d="M 47.105 310.372248 
+      <path clip-path="url(#pa326578278)" d="M 47.105 310.372248 
 L 716.705 310.372248 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15433,7 +15432,7 @@ L 716.705 310.372248
     </g>
     <g id="ytick_4">
      <g id="line2d_28">
-      <path clip-path="url(#pe480b68de7)" d="M 47.105 261.882116 
+      <path clip-path="url(#pa326578278)" d="M 47.105 261.882116 
 L 716.705 261.882116 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15448,7 +15447,7 @@ L 716.705 261.882116
     </g>
     <g id="ytick_5">
      <g id="line2d_29">
-      <path clip-path="url(#pe480b68de7)" d="M 47.105 213.391984 
+      <path clip-path="url(#pa326578278)" d="M 47.105 213.391984 
 L 716.705 213.391984 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15463,7 +15462,7 @@ L 716.705 213.391984
     </g>
     <g id="ytick_6">
      <g id="line2d_30">
-      <path clip-path="url(#pe480b68de7)" d="M 47.105 164.901853 
+      <path clip-path="url(#pa326578278)" d="M 47.105 164.901853 
 L 716.705 164.901853 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15478,7 +15477,7 @@ L 716.705 164.901853
     </g>
     <g id="ytick_7">
      <g id="line2d_31">
-      <path clip-path="url(#pe480b68de7)" d="M 47.105 116.411721 
+      <path clip-path="url(#pa326578278)" d="M 47.105 116.411721 
 L 716.705 116.411721 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15493,7 +15492,7 @@ L 716.705 116.411721
     </g>
     <g id="ytick_8">
      <g id="line2d_32">
-      <path clip-path="url(#pe480b68de7)" d="M 47.105 67.921589 
+      <path clip-path="url(#pa326578278)" d="M 47.105 67.921589 
 L 716.705 67.921589 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15508,7 +15507,7 @@ L 716.705 67.921589
     </g>
     <g id="ytick_9">
      <g id="line2d_33">
-      <path clip-path="url(#pe480b68de7)" d="M 47.105 19.431458 
+      <path clip-path="url(#pa326578278)" d="M 47.105 19.431458 
 L 716.705 19.431458 
 " style="fill:none;stroke:#ffffff;stroke-linecap:round;"/>
      </g>
@@ -15657,7 +15656,7 @@ z
     </g>
    </g>
    <g id="line2d_34">
-    <path clip-path="url(#pe480b68de7)" d="M 77.541364 384.053868 
+    <path clip-path="url(#pa326578278)" d="M 77.541364 384.053868 
 L 104.007767 422.312727 
 L 130.47417 342.482993 
 L 156.940573 310.406575 
@@ -15706,7 +15705,7 @@ L 716.705 7.2
   </g>
  </g>
  <defs>
-  <clipPath id="pe480b68de7">
+  <clipPath id="pa326578278">
    <rect height="434.88" width="669.6" x="47.105" y="7.2"/>
   </clipPath>
  </defs>
